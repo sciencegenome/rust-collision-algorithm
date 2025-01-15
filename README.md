@@ -4,7 +4,7 @@
   the unique count then the hashes are the same.
  - So my algorithm first find the hashes of the search string, then since there might be collisions also, so to avoid the collision, i implmented a way that it will make the graph offset key values unique and then multiply with the ASCII
    code and then it does the same for the find iter and then if the hashes are the same and also the unqiue value then it put them into the BTreeMap.
- - general note: Incase of Golang and RUST, please see the last commit message and if it says compiled binary then it is completed or else still in development version.
+ - please see the last commit message and if it says compiled binary then it is completed or else still in development version.
 ```
 cargo build
 
